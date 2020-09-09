@@ -5,37 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Document</title>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="style/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
 </head>
 
-<header class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light row">
-        <h1 class="navbar-brand mb-0 h1 col-10">Cynthia Wu</h1>
+
+<!--Do some research on why the fixed-top is blocking my header-->
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <h1 class="navbar-brand mb-0 h1">Cynthia Wu</h1>
+        <span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+      </span>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav col-md-auto">
-            <a class="nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link" href="#">Contact</a>
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="contact.html">Contact</a>
             <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
           </div>
         </div>
       </nav>
 </header>
 
-<body class="container-fluid">
-    <main class="col-8">
+<body class="container">
+  <div class="row">
+    <main role="main" class="col-xs-2 col-md-8 col-lg-10">
         <h2>About Me</h2>
         <hr>
-         <img src="https://via.placeholder.com/300" alt="A photograph of me">
+         <img src="https://via.placeholder.com/300" alt="A photograph of me" class="float-left">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cum voluptatum enim repellat recusandae facere aperiam modi, nemo illum, perferendis id impedit. Dolorem voluptate saepe atque porro minus nam maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis accusamus facilis quis beatae at numquam alias tempora, sapiente ad ducimus cum. Rerum repudiandae dicta consectetur sunt? Molestiae dolores quas maiores?</p>
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque deserunt eligendi suscipit itaque, perferendis ipsa sunt ut cumque nihil maxime vero odio, quod quisquam incidunt quo nesciunt maiores perspiciatis? Laboriosam.</p>
     </main>
-    
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+
 </body>
+
+
 </html>
