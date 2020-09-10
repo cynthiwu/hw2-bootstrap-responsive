@@ -10,44 +10,53 @@
 </head>
 
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">      
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <h1 class="navbar-brand mb-0 h1">Cynthia Wu</h1>
       <span>
-      <button class="navbar-toggler float-xs-right ml-auto hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     </span>
-      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
             <a class="nav-link" href="index.html">About</a>
             <a class="nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
             <a class="nav-link" href="contact.html">Contact</a>
-            <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
-          </div>
         </div>
-      </nav>
+      </div>
+  </nav>
 </header>
+
+
  <!--Do my-3 for margin on y axis. Look up utility classes.>-->
-<body class="container-fluid">
+<body class="container ml-4">
     <main>
-        <h2>Portfolio</h2>
-        <hr>
         <div class="row">
-          <img class="col-md-3" src="https://via.placeholder.com/300" alt="Placeholder image">
-          <img class="col-md-3" src="https://via.placeholder.com/300" alt="Placeholder image">
+        <h2 class="col-lg-9">Portfolio<hr></h2>
+        </div>
+
+        <div class="row">
+          <img class="col-xs-1 col-md-2 col-lg-3 my-3 mr-3" src="https://via.placeholder.com/300" alt="Placeholder image">
+          <img class="col-xs-1 col-md-2 col-lg-3 my-3 mr-3" src="https://via.placeholder.com/300" alt="Placeholder image">
         </div>
         <div class="row">
-          <img class="col-md-3" src="https://via.placeholder.com/300" alt="Placeholder image">
-          <img class="col-md-3" src="https://via.placeholder.com/300" alt="Placeholder image">
+          <img class="col-xs-1 col-md-2 col-lg-3 my-3 mr-3" src="https://via.placeholder.com/300" alt="Placeholder image">
+          <img class="col-xs-1 col-md-2 col-lg-3 my-3 mr-3" src="https://via.placeholder.com/300" alt="Placeholder image">
         </div>
         <div class="row">
-          <img class="col-md-3" src="https://via.placeholder.com/300" alt="Placeholder image">
+          <img class="col-xs-1 col-md-2 col-lg-3 my-3 mr-3" src="https://via.placeholder.com/300" alt="Placeholder image">
         </div>
     </main>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+
 </body>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+<footer class="footer mt-auto py-3 fixed-bottom">
+  <!--Not required, but will add coontent here in the future.-->
+</footer>
+
 
 </html>

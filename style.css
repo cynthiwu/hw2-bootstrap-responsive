@@ -1,9 +1,12 @@
 
+/* Prevents the fixed-top navbar from eating the body content */
+
 body { 
     margin-top: 7rem;
-
-} 
-
-img {
-    margin:1.5em;
+    min-height: 400px;
+    margin-bottom: 50px;
 }
+
+  .footer {
+    background-color: #f5f5f5;
+  }

@@ -9,12 +9,9 @@
     <link rel="stylesheet" type="text/css" href="style.css"> 
 </head>
 
-
-<!--Do some research on why the fixed-top is blocking my header-->
-
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <h1 class="navbar-brand mb-0 h1">Cynthia Wu</h1>
+      <h1 class="navbar-brand mb-0 h1">Cynthia Wu</h1>
         <span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,18 +22,18 @@
             <a class="nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
             <a class="nav-link" href="portfolio.html">Portfolio</a>
             <a class="nav-link" href="contact.html">Contact</a>
-            <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
           </div>
         </div>
-      </nav>
 </header>
 
-<body class="container">
+<!--Fixed-Top eats body content. Popular fix is to create a CSS class with a top margin for the body.-->
+
+<body class="container ml-4">
   <div class="row">
-    <main role="main" class="col-xs-2 col-md-8 col-lg-10">
+    <main role="main" class="col-xs-1 col-md-8 col-lg-9">
         <h2>About Me</h2>
         <hr>
-         <img src="https://via.placeholder.com/300" alt="A photograph of me" class="float-left">
+         <img src="https://via.placeholder.com/300" alt="A photograph of me" class="float-left about-me-m mr-3 mb-2">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cum voluptatum enim repellat recusandae facere aperiam modi, nemo illum, perferendis id impedit. Dolorem voluptate saepe atque porro minus nam maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis accusamus facilis quis beatae at numquam alias tempora, sapiente ad ducimus cum. Rerum repudiandae dicta consectetur sunt? Molestiae dolores quas maiores?</p>
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque deserunt eligendi suscipit itaque, perferendis ipsa sunt ut cumque nihil maxime vero odio, quod quisquam incidunt quo nesciunt maiores perspiciatis? Laboriosam.</p>
@@ -48,6 +45,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
 
 </body>
+
+<footer class="footer mt-auto py-3 fixed-bottom">
+  <!--Not required, but will add coontent here in the future.-->
+</footer>
 
 
 </html>
