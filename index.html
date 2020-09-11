@@ -9,9 +9,8 @@
     <link rel="stylesheet" type="text/css" href="style.css"> 
 </head>
 
-<body>
-  <!--Had moved the navbar from the header section to the body as, fixed-Top eats body content. Popular fix is to create a CSS class with a top margin for the body, but wanted to complete this assignment using primarily bootstrpap. -->
-  <nav role="banner" class="navbar navbar-expand-lg navbar-light bg-light">
+<header>
+  <nav role="banner" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <h1 class="navbar-brand mb-0 h1">Cynthia Wu</h1>
       <span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,18 +25,22 @@
         </div>
       </div>
   </nav>
+</header>
 
+<body class="bg">
   <main role="main" class="container mt-5 ml-4">
-    <div class="row">
-      <section role="main" class="col-xs-1 col-md-8 col-lg-9">
-          <h2>About Me</h2>
-          <hr>
-          <img src="https://via.placeholder.com/275" alt="A photograph of me" class="float-left mr-2 mb-2">
-          <p clas="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cum voluptatum enim repellat recusandae facere aperiam modi, nemo illum, perferendis id impedit. Dolorem voluptate saepe atque porro minus nam maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis accusamus facilis quis beatae at numquam alias tempora, sapiente ad ducimus cum. Rerum repudiandae dicta consectetur sunt? Molestiae dolores quas maiores?</p>
+    <section class="row pl-4 pt-4 pb-4 about-me">
+          <div class="col-xs-1 col-md-8 col-lg-9">
+          <h2>About Me <hr></h2>
+          </div>
+          
+          <div class="col-xs-1 col-md-8 col-lg-9">
+          <img src="https://via.placeholder.com/300" alt="A photograph of me" class="float-left mr-3 mb-2">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cum voluptatum enim repellat recusandae facere aperiam modi, nemo illum, perferendis id impedit. Dolorem voluptate saepe atque porro minus nam maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis accusamus facilis quis beatae at numquam alias tempora, sapiente ad ducimus cum. Rerum repudiandae dicta consectetur sunt? Molestiae dolores quas maiores?</p>
           <br>
-          <p clas="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque deserunt eligendi suscipit itaque, perferendis ipsa sunt ut cumque nihil maxime vero odio, quod quisquam incidunt quo nesciunt maiores perspiciatis? Laboriosam.</p>
-      </section>
-    </div>
+          <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque deserunt eligendi suscipit itaque, perferendis ipsa sunt ut cumque nihil maxime vero odio, quod quisquam incidunt quo nesciunt maiores perspiciatis? Laboriosam.</p>
+        </div>
+    </section>
   </main>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" inteˆgrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

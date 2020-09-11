@@ -2,12 +2,35 @@
 /* Prevents the fixed-top navbar from eating the body content */
 
 body { 
-    min-height: 400px;
-    margin-bottom: 50px;
+  margin-top: 60px;
+  min-height: 400px;
+  margin-bottom: 50px;
+}
+/* Prevents the fixed-bottom  */
+
+section {
+  padding:0;
 }
 
-  .footer {
+.bg {
+  
+  background-image: url("assets/background.jpg");
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.about-me {
+  background-color: #ffffff;
+  border-radius:5px;
+ 
+}
+.footer {
     background-color: #f5f5f5;
   }
 
-  
+ 
