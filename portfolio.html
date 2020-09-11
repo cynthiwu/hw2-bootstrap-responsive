@@ -9,40 +9,47 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-
-<body>
-   <!--Had moved the navbar from the header section to the body as, fixed-Top eats body content. Popular fix is to create a CSS class with a top margin for the body, but wanted to complete this assignment using primarily bootstrpap. -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <h1 class="navbar-brand mb-0 h1">Cynthia Wu</h1>
-      <span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </span>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-            <a class="nav-link" href="index.html">About</a>
-            <a class="nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="contact.html">Contact</a>
-        </div>
+<header> 
+  <nav role="banner" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <h1 class="navbar-brand mb-0 h1 text-white"><b>Cynthia Wu</b></h1>
+    <span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </span>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+          <a class="nav-link" href="index.html">About</a>
+          <a class="nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="contact.html">Contact</a>
       </div>
-  </nav>
+    </div>
+</nav>
+</header>
+
+<body class="bg">
+  <main role="main" class="container mx-3 my-5">
     
-  <main class="container mt-5 ml-2">
-    <div class="row">
-      <h2 class="col-lg-9">Portfolio<hr></h2>
-    </div>
-    <div class="row">
-      <img class="col-xs-1 col-md-4 col-lg-4 my-3 mr-3" src="https://via.placeholder.com/350" alt="Placeholder image">
-      <img class="col-xs-1 col-md-4 col-lg-4 my-3 mr-3" src="https://via.placeholder.com/350" alt="Placeholder image">
-    </div>
-    <div class="row">
-      <img class="col-xs-1 col-md-4 col-lg-4 my-3 mr-3" src="https://via.placeholder.com/350" alt="Placeholder image">
-      <img class="col-xs-1 col-md-4 col-lg-4 my-3 mr-3" src="https://via.placeholder.com/350" alt="Placeholder image">
-    </div>
-    <div class="row">
-      <img class="col-xs-1 col-md-4 col-lg-4 my-3 mr-3" src="https://via.placeholder.com/350" alt="Placeholder image">
-    </div>
+    <section class="about-me px-4 py-4 mr-4">
+      <div class="row">
+      <h2 class="col-xs-1 col-md-8 col-lg-8">Portfolio<hr></h2>
+      </div>
+      
+      <div class="row">
+      <img class="col-xs-1 col-md-4 col-lg-4 my-3" src="https://via.placeholder.com/350" alt="Placeholder image">
+      <img class="col-xs-1 col-md-4 col-lg-4 my-3" src="https://via.placeholder.com/350" alt="Placeholder image">
+      </div>
+
+      <div class="row">
+      <img class="col-xs-1 col-md-4 col-lg-4 my-3" src="https://via.placeholder.com/350" alt="Placeholder image">
+      <img class="col-xs-1 col-md-4 col-lg-4 my-3" src="https://via.placeholder.com/350" alt="Placeholder image">
+      </div>
+
+      <div class="row">
+      <img class="col-xs-1 col-md-4 col-lg-4 mr-3 my-3" src="https://via.placeholder.com/350" alt="Placeholder image">
+      </div>
+    </section>
+ 
   </main>
   
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -52,8 +59,7 @@
 </body>
 
 <footer class="footer mt-auto py-3 fixed-bottom">
-  <!--Not required, but will add coontent here in the future.-->
+  <div class="footer-copyright text-center py-1">© Copyright</div>
 </footer>
-
 
 </html>
