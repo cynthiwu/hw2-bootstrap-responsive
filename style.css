@@ -2,7 +2,6 @@
 /* Prevents the fixed-top navbar from eating the body content */
 
 body { 
-    margin-top: 7rem;
     min-height: 400px;
     margin-bottom: 50px;
 }
@@ -10,3 +9,5 @@ body {
   .footer {
     background-color: #f5f5f5;
   }
+
+  
