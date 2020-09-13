@@ -5,35 +5,32 @@ Explore the [project page](https://github.com/cynthiwu/hw2-bootstrap-responsive)
 View it live on [github-pages](https://cynthiwu.github.io/hw2-bootstrap-responsive/)
 
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+- [HOMEWORK ASSIGNMENT 2: Responsive Portfolio with Bootsrap](#homework-assignment-2-responsive-portfolio-with-bootsrap)
+  - [About The Project](#about-the-project)
+    - [Built With](#built-with)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Usage](#usage)
+  - [Roadmap](#roadmap)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Contact](#contact)
+  - [Acknowledgements](#acknowledgements)
 
 
 ## About The Project
 
 The directive of this assignment was to create the initial framework of a mobile responsive portfolio. This framework was to include three HTML files and contain a navbar within a responsive layout. CSS was meant to be primarily constructed using Bootstrap (v4.5.2) with final interface closely replicating screenshots included in the assignment documentation. These screenshots represented the page layout of each file at three different breakpoints (i.e., 992px, 768px, and 400px). The 992px screenshots have been provided below to represent the starting point of this portfolio.
-    
-    <span>
-        <div>
-            <img src="assets/992-index.png" alt="Example index file at 992px."/>
-        </div>
-        <div>
-            <img src="assets/992-portfolio.png" alt="Example portfolio file at 992px."/>
-        </div>
-        <div>
-            <img src="assets/992-contact.png" alt="Example contact file at 992px."/>
-        </div>
-    </span>
 
+
+<span>
+<img src="assets/992-index.png" alt="Example index file at 992px."/>
+
+<img src="assets/992-portfolio.png" alt="Example portfolio file at 992px."/>
+    
+<img src="assets/992-contact.png" alt="Example contact file at 992px."/>
+</span>
 
 
 The approach to creating this project is outlined below by portfolio page. 
