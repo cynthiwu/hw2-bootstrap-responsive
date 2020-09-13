@@ -1,29 +1,16 @@
 # HOMEWORK ASSIGNMENT 2: Responsive Portfolio with Bootsrap
 
-Explore the [project page](https://github.com/cynthiwu/hw2-bootstrap-responsive)
-
-View the [github-pages](https://cynthiwu.github.io/hw2-bootstrap-responsive/)
-
-<!-- PROJECT LOGO -->
-<br />
+<br>
 <p text-align="center">
     <div>
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinclipart.com%2Fpindetail%2FihxmmT_bootstrap-bootstrap-4-logo-png-clipart%2F&psig=AOvVaw2mQax2l7T9cmKduRLOvOOx&ust=1600113762697000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNiXrrb25usCFQAAAAAdAAAAABAD" alt="Bootstrap Logo" width="80" height="80">
+        <img src="assets/bootstrap.png" alt="Bootstrap Logo" width="80" height="80">
     </div>
- 
-  <h3 align="center">YOUR_TITLE</h3>
-
-  <p align="center">
-    YOUR_SHORT_DESCRIPTION
-    <br />
+    <br>
+    <hr>
     <a href="https://github.com/cynthiwu/hw2-bootstrap-responsive"><strong>Explore the project page »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <br>
+    <br>
+    <a href="https://cynthiwu.github.io/hw2-bootstrap-responsive/">View it live on GitHub Pages »</a>
   </p>
 </p>
 
