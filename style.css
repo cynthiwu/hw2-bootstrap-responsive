@@ -1,17 +1,20 @@
 
 /* Prevents the fixed-top navbar from eating the body content */
 
-header h1 {
+html, body {
+  overflow: visible;
+}
+
+h1 {
   font-family:'Times New Roman', Times, serif;
   background-color: #4AAAA5;
   font-size: 1.75rem;
-  font-weight:bold;
 }
 
 body { 
-  margin-top: 60px;
+  margin-top: 80px;
   min-height: 400px;
-  margin-bottom: 80px;
+  margin-bottom: 30%;
 }
 /* Prevents the fixed-bottom  */
 
@@ -23,18 +26,21 @@ h2 {
 }
 
 .bg {
-  background-image: url("https://images.pexels.com/photos/3377414/pexels-photo-3377414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image:  url("https://images.pexels.com/photos/3377414/pexels-photo-3377414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1000&w=2500");
   min-height: 100%;
-  width: 100%;
+  width: auto;
   height: auto;
-  position: fixed;
+  background-position: fixed;
   top: 0;
   left: 0;
+  overflow: auto;
 }
 
+/* Need to make background image more responsive*/
+
 .about-me {
-  background-color: #ffffff;
-  padding: auto;
+  background-color: #ffffff; 
+  margin-right:auto;
 }
 
 .btnstyle {
@@ -54,7 +60,3 @@ footer {
   border-radius:0;
 }
 
-.form-group {
-  margin-left: 8px;
-
-}
