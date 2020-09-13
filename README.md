@@ -1,23 +1,9 @@
 # HOMEWORK ASSIGNMENT 2: Responsive Portfolio with Bootsrap
 
-<br>
-<p text-align="center">
-    <div>
-        <img src="assets/bootstrap.png" alt="Bootstrap Logo" width="80" height="80">
-    </div>
-    <br>
-    <hr>
-    <a href="https://github.com/cynthiwu/hw2-bootstrap-responsive"><strong>Explore the project page »</strong></a>
-    <br>
-    <br>
-    <a href="https://cynthiwu.github.io/hw2-bootstrap-responsive/">View it live on GitHub Pages »</a>
-  </p>
-</p>
+Explore the [project page](https://github.com/cynthiwu/hw2-bootstrap-responsive)
 
+View it live on [github-pages](https://cynthiwu.github.io/hw2-bootstrap-responsive/)
 
-
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
@@ -32,9 +18,29 @@
 * [Acknowledgements](#acknowledgements)
 
 
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
+
+The directive of this assignment was to create the initial framework of a mobile responsive portfolio. This framework was to include three HTML files and contain a navbar within a responsive layout. CSS was meant to be primarily constructed using Bootstrap (v4.5.2) with final interface closely replicating screenshots included in the assignment documentation. These screenshots represented the page layout of each file at three different breakpoints (i.e., 992px, 768px, and 400px). The 992px screenshots have been provided below to represent the starting point of this portfolio.
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <img src="assets/992-index.png" alt="Example index file at 992px."/>
+        </div>
+        <div class="col-md-3">
+            <img src="assets/992-portfolio.png" alt="Example portfolio file at 992px."/>
+        </div>
+        <div class="col-md-3">
+            <img src="assets/992-contact.png" alt="Example contact file at 992px."/>
+        </div>
+
+
+The approach to creating this project is outlined below by portfolio page. 
+
+
+
+tincluded three focus of this project was on refactoring an existing codebase to increase the usage of semantic HTML, ultimately increasing the web accessibility of the resulting product. The existing code included an HTML and CSS file for a company webpage (i.e., Horiseon), along with a "User Story" and set of "Acceptance Criteria". The webpage outlines Horiseon's company offerings, along with the benefits associated with leveraging these offerings. There are a number of images and figures included to supplemnt the literary content. 
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
