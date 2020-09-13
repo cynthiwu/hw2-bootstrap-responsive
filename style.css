@@ -10,7 +10,7 @@ body {
   min-height: 400px;
   margin-bottom: 30%;
 }
-/* The addition of the margin-top and margin-bottom prevrents the overlap of the fixed-top navbar and fixed-bottom footer. */
+/* The addition of the margin-top and margin-bottom prevrents the overlap of the fixed-top navbar and fixed-bottom footer. Min-height preventing content from being swallowed by footer in mobile view. */
 
 h2 {
   font-family:'Times New Roman', Times, serif;
@@ -29,25 +29,28 @@ h2 {
   left: 0;
   overflow: auto;
 }
-
-/* Note: Need to work on making the background image more responsive. */
+/* Note: Need to work on making the background image more responsive in future iterations. Still tiles in mobile view toward the bottom. */
 
 .about-me {
   background-color: #ffffff; 
-  margin-right:auto;
-  line-height: 2;
+  line-height: 1.75;
 }
+/* Container styling class. */ 
 
 .amimage {
   width: 200px;
   height: auto;
-  
 }
+/* Styling for profile image. */
 
 .btnstyle {
   background-color:#4AAAA5;
   border-radius:0;
   border:0;
+}
+
+.formstyle {
+  border-radius:0;
 }
 
 footer {
@@ -57,7 +60,4 @@ footer {
     color: #6B737A;
   }
 
-.formstyle {
-  border-radius:0;
-}
 
