@@ -8,6 +8,7 @@ View it live on [github-pages](https://cynthiwu.github.io/hw2-bootstrap-responsi
 - [HOMEWORK ASSIGNMENT 2: Responsive Portfolio with Bootsrap](#homework-assignment-2-responsive-portfolio-with-bootsrap)
   - [About The Project](#about-the-project)
     - [The Navbar](#the-navbar)
+    - [The About Me Page](#the-about-me-page)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
@@ -24,11 +25,11 @@ View it live on [github-pages](https://cynthiwu.github.io/hw2-bootstrap-responsi
 The directive of this assignment was to create the initial framework of a mobile responsive portfolio. This framework was to include three HTML files and contain a navbar within a responsive layout. CSS was meant to be primarily constructed using Bootstrap (v4.5.2) with final interface closely replicating screenshots included in the assignment documentation. These screenshots represented the page layout of each file at three different breakpoints (i.e., 992px, 768px, and 400px). The 992px screenshots have been provided below to represent the starting point of this portfolio.
 
 <span>
-<img src="assets/992-index.png" alt="Example index file at 992px." width="200px" height="250px">
+<img src="assets/992-index.png" alt="Example index file at 992px." width="auto" height="250px" style="margin: 5px";>
 
-<img src="assets/992-portfolio.png" alt="Example portfolio file at 992px." width="200px" height="250px"/>
+<img src="assets/992-portfolio.png" alt="Example portfolio file at 992px." width="auto" height="250px" style="margin: 5px";/>
     
-<img src="assets/992-contact.png" alt="Example contact file at 992px." width="200px" height="250px"/>
+<img src="assets/992-contact.png" alt="Example contact file at 992px." width="auto" height="250px" style="margin: 5px";/>
 </span>
 
 
@@ -43,10 +44,16 @@ The approach to creating this project is outlined below by feature or portfolio 
 *  The default version of this code pulled the nav links to the left hand side of the brand, which I overrode by including the Bootstrap ml-auto class in the nav link container. 
 *  I utilized Bootstrap's fixed-top class to max the navbar expand full width across the screen. This caused issues 
 *  The Navbar has responsivness built in, tranforming the nav links to a toggler menu at the 992px breakpoint.
+*  The same block of code was used on each page, adjusting the inactive nav link to be that of the current page.
 
-<iframe src="https://drive.google.com/file/d/1e2CFZi1F83xH5d11X5mtyxgx-tuHZeHk/preview" width="640" height="480"></iframe>
+![Responsive Navbar and Toggler Demo](assets/navbardemo.gif.gif)
 
-<!-- GETTING STARTED -->
+### The About Me Page
+
+
+
+
+
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
