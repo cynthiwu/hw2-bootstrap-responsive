@@ -1,10 +1,4 @@
 
-/* Prevents the fixed-top navbar from eating the body content */
-
-html, body {
-  overflow: visible;
-}
-
 h1 {
   font-family:'Times New Roman', Times, serif;
   background-color: #4AAAA5;
@@ -16,7 +10,7 @@ body {
   min-height: 400px;
   margin-bottom: 30%;
 }
-/* Prevents the fixed-bottom  */
+/* The addition of the margin-top and margin-bottom prevrents the overlap of the fixed-top navbar and fixed-bottom footer. */
 
 h2 {
   font-family:'Times New Roman', Times, serif;
@@ -36,11 +30,18 @@ h2 {
   overflow: auto;
 }
 
-/* Need to make background image more responsive*/
+/* Note: Need to work on making the background image more responsive. */
 
 .about-me {
   background-color: #ffffff; 
   margin-right:auto;
+  line-height: 2;
+}
+
+.amimage {
+  width: 200px;
+  height: auto;
+  
 }
 
 .btnstyle {
