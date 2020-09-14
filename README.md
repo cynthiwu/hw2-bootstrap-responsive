@@ -36,9 +36,9 @@ View it live on [github-pages](https://cynthiwu.github.io/hw2-bootstrap-responsi
 The directive of this assignment was to create the initial framework of a mobile responsive portfolio. This framework was to include three HTML files and contain a navbar within a responsive layout. CSS was meant to be primarily constructed using Bootstrap (v4.5.2) with final interface closely replicating screenshots included in the assignment documentation. These screenshots represented the page layout of each file at three different breakpoints (i.e., 992px, 768px, and 400px). The 992px screenshots have been provided below to represent the starting point of this portfolio.
 
 <div>
-<img src="assets/992-index.png" alt="Example index file at 992px." width="350px" height="auto" style="margin: 5px";>
-<img src="assets/992-portfolio.png" alt="Example portfolio file at 992px." width="350px" height="auto" heistyle="margin: 5px";/>
-<img src="assets/992-contact.png" alt="Example contact file at 992px." width="350px" height="auto" style="margin: 5px";/>
+<img src="assets/992-index.png" alt="Example index file at 992px." width="400px" height="auto" style="margin: 5px";>
+<img src="assets/992-portfolio.png" alt="Example portfolio file at 992px." width="400px" height="auto" heistyle="margin: 5px";/>
+<img src="assets/992-contact.png" alt="Example contact file at 992px." width="400px" height="auto" style="margin: 5px";/>
 </div>
 
 
