@@ -42,6 +42,10 @@ The directive of this assignment was to create the initial framework of a mobile
 </div>
 
 
+The course instructor provided the following directives on top of the given instruction:
+* Create the overall layout by primarily utilizing Bootstrap. 
+* Attempt to create an exact replica of the images provided (above), background image aside. 
+
 The approach to creating this project is outlined below by feature or portfolio page. 
 
 
