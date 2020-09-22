@@ -1,4 +1,4 @@
-# HOMEWORK ASSIGNMENT 2: Responsive Portfolio with Bootsrap
+# Responsive Portfolio with Bootsrap
 
 Explore the [project page](https://github.com/cynthiwu/hw2-bootstrap-responsive)
 
