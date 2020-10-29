@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Portfolio ❧ Cynthia Wu</title>
+  <link rel="stylesheet" type="text/css" href="../style/reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="../style/style.css">
 </head>
 
 <header> 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <h1 class="navbar-brand mb-0 h1 text-white"><b>Cynthia Wu</b></h1>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <h1 id="navhead" class="navbar-brand mb-0 h1"><b>CYNTHIA WU</b></h1>
     <span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -19,7 +20,7 @@
     </span>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
-          <a class="nav-link" href="index.html">About</a>
+          <a class="nav-link" href="../index.html">About</a>
           <a class="nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
           <a class="nav-link" href="contact.html">Contact</a>
       </div>
@@ -32,11 +33,35 @@
     <div class="row">
       <div class="col-xs-9 col-sm-9 col-md-9 about-me p-4 mr-5">
         <h2 class=>Portfolio<hr></h2>
-        <img class="m-2" src="https://via.placeholder.com/300" alt="Placeholder image">
-        <img class="m-2" src="https://via.placeholder.com/300" alt="Placeholder image">
-        <img class="m-2" src="https://via.placeholder.com/300" alt="Placeholder image">
-        <img class="m-2" src="https://via.placeholder.com/300" alt="Placeholder image">
-        <img class="m-2" src="https://via.placeholder.com/300" alt="Placeholder image">
+
+        <div class="card text-center" style="width: 18rem;">
+          <img class="portimage m-2" src="../assets/whatsfordinner.png" alt="What's for dinner project">
+          <div class="card-body">
+            <h5 class="card-title">What's for Dinner?</h5>
+            <a href="https://cynthiwu.github.io/whats-for-dinner/">See it live!</a>
+            <br>
+            <a href="https://github.com/cynthiwu/whats-for-dinner" class="card-text">Repository</a>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 18rem;">
+          <img class="portimage m-2" src="../assets/weatherdashboard.png" alt="Weather dashboard project">
+            <h5 class="card-title">Weather Dashboard</h5>
+            <a href="https://cynthiwu.github.io/weather-dashboard/">See it live!</a>
+            <br>
+            <a href="https://github.com/cynthiwu/weather-dashboard" class="card-text">Repository</a>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 18rem;">
+          <img class="portimage m-2" src="../assets/workdayscheduler.png" alt="Workday scheduler project">
+            <h5 class="card-title">Workday Scheduler</h5>
+            <a href="https://cynthiwu.github.io/work-day-scheduler/">See it live!</a>
+            <br>
+            <a href="https://github.com/cynthiwu/work-day-scheduler" class="card-text">Repository</a>
+          </div>
+        </div>
+
       </div>
     </div>
   </main>

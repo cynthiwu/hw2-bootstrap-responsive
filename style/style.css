@@ -1,8 +1,15 @@
 
 h1 {
-  font-family:'Times New Roman', Times, serif;
-  background-color: #4AAAA5;
-  font-size: 1.75rem;
+  font-family:'Times New Roman', Times, serif; 
+  font-size: 2rem;
+}
+
+#navhead {
+  color:#343a40;
+}
+
+.navbar {
+  background-color: #A6C8CA;
 }
 
 body { 
@@ -14,7 +21,7 @@ body {
 
 h2 {
   font-family:'Times New Roman', Times, serif;
-  color: #4AAAA5;
+  color: #a6c8ca; 
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -31,32 +38,49 @@ h2 {
 }
 /* Note: Need to work on making the background image more responsive in future iterations. Still tiles in mobile view toward the bottom. */
 
+
 .about-me {
   background-color: #ffffff; 
   line-height: 1.75;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 /* Container styling class. */ 
 
 .amimage {
   width: 200px;
   height: auto;
+  border-radius: 10px;
 }
 /* Styling for profile image. */
 
+.portimage {
+  border-radius: 10px;
+  height: 300px;
+  width: auto;
+  border: 2px solid #A6C8CA;
+ 
+}
+
+h3 {
+  color:#a6c8ca; 
+}
+
 .btnstyle {
-  background-color:#4AAAA5;
-  border-radius:0;
+  background-color:#A6C8CA;
+  border-radius:10px;
   border:0;
 }
 
 .formstyle {
-  border-radius:0;
+  border-radius:10px;
 }
 
 footer {
     background-color: #666666;
     border-top: 6px solid;
-    border-color:#4AAAA5;
+    border-color:#A6C8CA;
     color: #6B737A;
   }
 
