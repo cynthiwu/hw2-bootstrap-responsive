@@ -1,7 +1,12 @@
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 h1 {
-  font-family:'Times New Roman', Times, serif; 
-  font-size: 2rem;
+  font-family:'Abril Fatface', cursive;
+  font-size: 30px
 }
 
 #navhead {
@@ -9,51 +14,74 @@ h1 {
 }
 
 .navbar {
-  background-color: #A6C8CA;
+  height: 100px;
+  background-color: #ffffff;
+  margin-right:0;
 }
 
 body { 
-  margin-top: 80px;
-  min-height: 400px;
-  margin-bottom: 30%;
+  background-color: #E8CEBF;
+  margin-bottom:75px;
+  margin-right:0;
 }
-/* The addition of the margin-top and margin-bottom prevrents the overlap of the fixed-top navbar and fixed-bottom footer. Min-height preventing content from being swallowed by footer in mobile view. */
 
 h2 {
-  font-family:'Times New Roman', Times, serif;
-  color: #a6c8ca; 
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-family:'Abril Fatface', cursive;
+  color: #266150;
+  font-size: 35px;
 }
 
-.bg {
-  background-image:  url("https://images.pexels.com/photos/3377414/pexels-photo-3377414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1000&w=2500");
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  background-position: fixed;
+h3 {
+  font-family:'Abril Fatface', cursive;
+  color: #266150;
+}
+
+.left-design {
+  background-color:#DDAF94;
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  left:0;
   top: 0;
-  left: 0;
-  overflow: auto;
+  bottom: 2;
+  z-index: -10;
+  margin:0;
 }
-/* Note: Need to work on making the background image more responsive in future iterations. Still tiles in mobile view toward the bottom. */
 
+.right-design {
+  background-color:#DDAF94;
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  right:0;
+  top: 0;
+  bottom: 2;
+  z-index: -10;
+  margin:0;
+}
+
+
+#about-contain {
+  margin-top: 40px;
+  margin-bottom: 75px;
+}
 
 .about-me {
   background-color: #ffffff; 
   line-height: 1.75;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10px;
+  border-radius: 5px;
+  margin-bottom: 75px;
+  
 }
-/* Container styling class. */ 
 
 .amimage {
-  width: 200px;
+  width: 300px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 50%;
+  display: inline-block;
 }
-/* Styling for profile image. */
 
 .portimage {
   border-radius: 10px;
@@ -61,10 +89,6 @@ h2 {
   width: auto;
   border: 2px solid #A6C8CA;
  
-}
-
-h3 {
-  color:#a6c8ca; 
 }
 
 .btnstyle {
@@ -78,11 +102,17 @@ h3 {
 }
 
 footer {
-    background-color: #666666;
-    border-top: 6px solid;
-    border-color:#A6C8CA;
-    color: #6B737A;
+    background-color: #FDF8F5;
+    color:white;
+    height: 75px;   
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+  
   }
+
+
 
 
 
