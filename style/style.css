@@ -19,6 +19,11 @@ h1 {
   margin-right:0;
 }
 
+.nav-link {
+  font-size: 20px;
+  font-family: 'Montserrat';
+}
+
 body { 
   background-color: #E8CEBF;
   margin-bottom:75px;
@@ -56,6 +61,8 @@ h3 {
 }
 
 .about-me {
+  font-family: 'Montserrat';
+  font-weight: 15px;
   background-color: #ffffff; 
   line-height: 1.75;
   margin-left: auto;
@@ -73,7 +80,8 @@ h3 {
 }
 
 .icon {
-  color:#266150;
+  color: #9D9B9B;
+  font-size: 20px;
 }
 
 .card {
@@ -107,6 +115,7 @@ footer {
     bottom:0;
     right:0;
     left:0;
+    margin-bottom: 0;
   }
 
 
