@@ -24,6 +24,15 @@ h1 {
   font-family: 'Montserrat';
 }
 
+.navbar-collapse {
+  background-color:  #ffffff;
+}
+
+.navbar-nav {
+  width: 150px;
+  padding: 10px;
+}
+
 body { 
   background-color: #E8CEBF;
   margin-bottom:75px;
