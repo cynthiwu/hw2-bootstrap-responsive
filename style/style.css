@@ -87,6 +87,12 @@ h3 {
 .card {
   height: 400px;
   width: 315px;
+  transition: all .2s ease-in-out; 
+  border-radius: 13px;
+}
+
+.card:hover {
+  transform: scale(1.1); 
 }
 
 
@@ -95,13 +101,25 @@ h3 {
   height: 250px;
   object-fit: cover;
   border-bottom: 2px solid #A6C8CA;
+  border-radius: 10px;
+
 }
 
 .btnstyle {
   background-color:#A6C8CA;
   border-radius:10px;
   border:0;
+  font-weight:bold;
 }
+
+.btnstyle:hover {
+  background-color: #266150;
+}
+
+.btnstyle:focus, .btnstyle:active {
+  background-color:#A6C8CA;
+}
+
 
 .formstyle {
   border-radius:10px;
@@ -116,6 +134,34 @@ footer {
     right:0;
     left:0;
     margin-bottom: 0;
+  }
+  
+  .icon-span {
+    margin: 15px;
+  }
+
+  #linkedin {
+    position: absolute;
+    transition: all .2s ease-in-out; 
+  }
+
+  #github {
+    position: absolute;
+    transition: all .2s ease-in-out; 
+  }
+
+  #resume {
+    position: absolute;
+    transition: all .2s ease-in-out; 
+  }
+
+  .icon:hover {
+    transform: scale(1.3); 
+    color:#266150;
+  }
+
+  .icon:active {
+    color:#A6C8CA;
   }
 
 
